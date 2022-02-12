@@ -1,9 +1,0 @@
-#VARIABLES
-  #{PLAYER} - victim name
-  #{HP} - victim health
-
-messages:
-
-  bow: "&8*** &c{PLAYER}'s &factually have: &c{HP} HP"
-  snowball: "&8*** &6{PLAYER}'s &factually have: &6{HP} HP"
-  fishing_rod: "&8*** &6{PLAYER}'s &factually have: &6{HP} HP"

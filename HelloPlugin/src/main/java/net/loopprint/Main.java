@@ -10,12 +10,12 @@ public class Main extends JavaPlugin {
         Main.plugin = this;
         long startTime = System.currentTimeMillis();
 
-        System.out.println("HelloPlugin | Wlaczono plugin w " + (System.currentTimeMillis() - startTime) + "ms!");
+        System.out.println("HelloPlugin | Plugin has been enabled in " + (System.currentTimeMillis() - startTime) + "ms!");
         Bukkit.broadcastMessage("Hello World!");
     }
 
     public void onDisable() {
         long startTime = System.currentTimeMillis();
-        System.out.println("HelloPlugin | Wylaczono plugin w " + (System.currentTimeMillis() - startTime) + "ms!");
+        System.out.println("HelloPlugin | Plugin has been disabled in " + (System.currentTimeMillis() - startTime) + "ms!");
     }
 }
